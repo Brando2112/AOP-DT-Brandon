@@ -1,0 +1,468 @@
+body {
+  margin: 0;
+  padding: 40px 16px;
+  background-color: #f5f3ec;
+  color: #161616;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.brandon-cv {
+  width: 1036px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #161616;
+  border-radius: 14px;
+  box-shadow: 10px 10px 0 #161616;
+}
+
+.brandon-garis {
+  margin: 0;
+  border: 1px solid #161616;
+}
+
+.brandon-hero {
+  display: grid;
+  grid-template-columns: 264px 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 56px 48px;
+}
+
+.brandon-hero-foto {
+  width: 264px;
+}
+
+.brandon-foto img {
+  width: 260px;
+  height: 325px;
+  object-fit: cover;
+  border: 2px solid #161616;
+  border-radius: 14px;
+  background-color: #ffe1d6;
+}
+
+.brandon-foto img:hover {
+  box-shadow: 8px 8px 0 #ff5b2e;
+}
+
+.brandon-stiker {
+  display: flex;
+  justify-content: flex-end;
+  margin: 18px 0 0 0;
+}
+
+.brandon-stiker a {
+  padding: 7px 15px;
+  background-color: #ff5b2e;
+  color: #161616;
+  border: 2px solid #161616;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.brandon-stiker a:hover {
+  background-color: #ffe1d6;
+}
+
+.brandon-kicker {
+  margin: 0 0 12px 0;
+  color: #5c5a53;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.brandon-hero h1 {
+  font-size: 64px;
+}
+
+.brandon-tanda {
+  padding: 0 8px;
+  background-color: #ff5b2e;
+}
+
+.brandon-tagline {
+  width: 544px;
+  margin: 18px 0 0 0;
+  color: #5c5a53;
+  font-size: 18px;
+}
+
+.brandon-kontak {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px 24px;
+  margin: 28px 0 0 0;
+}
+
+.brandon-kontak li {
+  font-weight: bold;
+}
+
+.brandon-kontak strong {
+  display: block;
+  color: #5c5a53;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.brandon-kontak a {
+  color: #161616;
+  text-decoration: none;
+}
+
+.brandon-kontak a:hover {
+  text-decoration: underline;
+}
+
+.brandon-pita {
+  display: block;
+  padding: 18px 0;
+  background-color: #ff5b2e;
+  color: #161616;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.brandon-pita b {
+  margin: 0 18px;
+}
+
+.brandon-pita .brandon-putih {
+  color: #ffffff;
+}
+
+.brandon-isi {
+  display: grid;
+  gap: 48px;
+  padding: 40px;
+}
+
+.brandon-isi h2 {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0 0 20px 0;
+  font-size: 26px;
+}
+
+.brandon-nomor {
+  color: #2f5bff;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.brandon-lead {
+  width: 640px;
+  font-size: 18px;
+}
+
+.brandon-fakta {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin: 24px 0 0 0;
+}
+
+.brandon-fakta-kotak {
+  padding: 16px;
+  border: 2px solid #161616;
+  border-radius: 10px;
+}
+
+.brandon-fakta-judul {
+  color: #5c5a53;
+  font-size: 14px;
+}
+
+.brandon-fakta-isi {
+  margin: 3px 0 0 0;
+  font-weight: bold;
+}
+
+.brandon-pengalaman {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 20px;
+}
+
+.brandon-tahun {
+  color: #2f5bff;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.brandon-pengalaman h3 {
+  font-size: 19px;
+}
+
+.brandon-tempat {
+  margin: 3px 0 7px 0;
+  color: #5c5a53;
+  font-size: 15px;
+}
+
+.brandon-putus {
+  margin: 40px 0 20px 0;
+  border: 1px dashed #cfcbc0;
+}
+
+.brandon-bento-atas {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.brandon-bento-bawah {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin: 16px 0 0 0;
+}
+
+.brandon-kartu {
+  padding: 22px;
+  background-color: #ffffff;
+  border: 2px solid #161616;
+  border-radius: 12px;
+}
+
+.brandon-kartu:hover {
+  box-shadow: 6px 6px 0 #161616;
+}
+
+.brandon-kartu h3 {
+  margin: 12px 0 8px 0;
+  font-size: 19px;
+}
+
+.brandon-kartu p {
+  color: #5c5a53;
+  font-size: 15px;
+}
+
+.brandon-kartu-besar {
+  background-color: #ffe1d6;
+}
+
+.brandon-kartu-biru {
+  background-color: #2f5bff;
+  color: #ffffff;
+}
+
+.brandon-kartu-biru p {
+  color: #e4eaff;
+}
+
+.brandon-tag {
+  padding: 4px 10px;
+  background-color: #ff5b2e;
+  color: #161616;
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+.brandon-kartu-biru .brandon-tag {
+  background-color: #ffffff;
+}
+
+.brandon-prestasi li {
+  margin: 0 0 12px 0;
+  padding: 0 0 0 5px;
+  background-color: #ff5b2e;
+  border-radius: 0 14px 14px 0;
+}
+
+.brandon-prestasi-isi {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  gap: 16px;
+  padding: 14px 18px;
+  background-color: #f5f3ec;
+  border-radius: 0 10px 10px 0;
+}
+
+.brandon-prestasi strong {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.brandon-chips {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: start;
+  gap: 10px;
+}
+
+.brandon-chips li {
+  padding: 8px 16px;
+  border: 2px solid #161616;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.brandon-chips li:hover {
+  background-color: #ff5b2e;
+}
+
+.brandon-uxui {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 16px;
+}
+
+.brandon-uxui-kolom {
+  padding: 24px;
+  border: 2px solid #161616;
+  border-radius: 12px;
+}
+
+.brandon-uxui-kolom h3 {
+  margin: 12px 0 6px 0;
+  font-size: 19px;
+}
+
+.brandon-uxui-kolom p {
+  color: #5c5a53;
+}
+
+.brandon-ui {
+  background-color: #ffe1d6;
+}
+
+.brandon-uxui-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.brandon-catatan {
+  margin: 20px 0 0 0;
+  font-style: italic;
+}
+
+.brandon-footer {
+  padding: 24px 40px;
+  background-color: #ff5b2e;
+  border-radius: 0 0 12px 12px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 1100px) {
+  .brandon-cv {
+    width: auto;
+  }
+
+  .brandon-hero h1 {
+    font-size: 48px;
+  }
+
+  .brandon-tagline {
+    width: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .brandon-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .brandon-hero-foto {
+    margin: 0 auto;
+  }
+
+  .brandon-chips {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 760px) {
+  .brandon-lead {
+    width: auto;
+  }
+
+  .brandon-kontak {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brandon-uxui {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .brandon-hero {
+    padding: 36px 20px;
+  }
+
+  .brandon-hero h1 {
+    font-size: 34px;
+  }
+
+  .brandon-kontak, .brandon-fakta, .brandon-bento-atas, .brandon-bento-bawah {
+    grid-template-columns: 1fr;
+  }
+
+  .brandon-isi {
+    padding: 28px 20px;
+  }
+
+  .brandon-pengalaman {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .brandon-chips {
+    grid-template-columns: auto auto;
+  }
+
+  .brandon-footer {
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .brandon-hero-foto {
+    width: 224px;
+  }
+
+  .brandon-foto img {
+    width: 220px;
+    height: 275px;
+  }
+
+  .brandon-hero h1 {
+    font-size: 28px;
+  }
+
+  .brandon-prestasi-isi {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}

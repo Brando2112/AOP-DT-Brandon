@@ -1,0 +1,468 @@
+body {
+  margin: 0;
+  padding: 40px 16px;
+  background-color: #f5f3ec;
+  color: #161616;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.melvern-cv {
+  width: 1036px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #161616;
+  border-radius: 14px;
+  box-shadow: 10px 10px 0 #161616;
+}
+
+.melvern-garis {
+  margin: 0;
+  border: 1px solid #161616;
+}
+
+.melvern-hero {
+  display: grid;
+  grid-template-columns: 264px 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 56px 48px;
+}
+
+.melvern-hero-foto {
+  width: 264px;
+}
+
+.melvern-foto img {
+  width: 260px;
+  height: 325px;
+  object-fit: cover;
+  border: 2px solid #161616;
+  border-radius: 14px;
+  background-color: #d5f2e3;
+}
+
+.melvern-foto img:hover {
+  box-shadow: 8px 8px 0 #1e9e6a;
+}
+
+.melvern-stiker {
+  display: flex;
+  justify-content: flex-end;
+  margin: 18px 0 0 0;
+}
+
+.melvern-stiker a {
+  padding: 7px 15px;
+  background-color: #1e9e6a;
+  color: #161616;
+  border: 2px solid #161616;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.melvern-stiker a:hover {
+  background-color: #d5f2e3;
+}
+
+.melvern-kicker {
+  margin: 0 0 12px 0;
+  color: #5c5a53;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.melvern-hero h1 {
+  font-size: 64px;
+}
+
+.melvern-tanda {
+  padding: 0 8px;
+  background-color: #1e9e6a;
+}
+
+.melvern-tagline {
+  width: 544px;
+  margin: 18px 0 0 0;
+  color: #5c5a53;
+  font-size: 18px;
+}
+
+.melvern-kontak {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px 24px;
+  margin: 28px 0 0 0;
+}
+
+.melvern-kontak li {
+  font-weight: bold;
+}
+
+.melvern-kontak strong {
+  display: block;
+  color: #5c5a53;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.melvern-kontak a {
+  color: #161616;
+  text-decoration: none;
+}
+
+.melvern-kontak a:hover {
+  text-decoration: underline;
+}
+
+.melvern-pita {
+  display: block;
+  padding: 18px 0;
+  background-color: #1e9e6a;
+  color: #161616;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.melvern-pita b {
+  margin: 0 18px;
+}
+
+.melvern-pita .melvern-putih {
+  color: #ffffff;
+}
+
+.melvern-isi {
+  display: grid;
+  gap: 48px;
+  padding: 40px;
+}
+
+.melvern-isi h2 {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0 0 20px 0;
+  font-size: 26px;
+}
+
+.melvern-nomor {
+  color: #2f5bff;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.melvern-lead {
+  width: 640px;
+  font-size: 18px;
+}
+
+.melvern-fakta {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin: 24px 0 0 0;
+}
+
+.melvern-fakta-kotak {
+  padding: 16px;
+  border: 2px solid #161616;
+  border-radius: 10px;
+}
+
+.melvern-fakta-judul {
+  color: #5c5a53;
+  font-size: 14px;
+}
+
+.melvern-fakta-isi {
+  margin: 3px 0 0 0;
+  font-weight: bold;
+}
+
+.melvern-pengalaman {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 20px;
+}
+
+.melvern-tahun {
+  color: #2f5bff;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.melvern-pengalaman h3 {
+  font-size: 19px;
+}
+
+.melvern-tempat {
+  margin: 3px 0 7px 0;
+  color: #5c5a53;
+  font-size: 15px;
+}
+
+.melvern-putus {
+  margin: 40px 0 20px 0;
+  border: 1px dashed #cfcbc0;
+}
+
+.melvern-bento-atas {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.melvern-bento-bawah {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin: 16px 0 0 0;
+}
+
+.melvern-kartu {
+  padding: 22px;
+  background-color: #ffffff;
+  border: 2px solid #161616;
+  border-radius: 12px;
+}
+
+.melvern-kartu:hover {
+  box-shadow: 6px 6px 0 #161616;
+}
+
+.melvern-kartu h3 {
+  margin: 12px 0 8px 0;
+  font-size: 19px;
+}
+
+.melvern-kartu p {
+  color: #5c5a53;
+  font-size: 15px;
+}
+
+.melvern-kartu-besar {
+  background-color: #d5f2e3;
+}
+
+.melvern-kartu-biru {
+  background-color: #2f5bff;
+  color: #ffffff;
+}
+
+.melvern-kartu-biru p {
+  color: #e4eaff;
+}
+
+.melvern-tag {
+  padding: 4px 10px;
+  background-color: #1e9e6a;
+  color: #161616;
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+.melvern-kartu-biru .melvern-tag {
+  background-color: #ffffff;
+}
+
+.melvern-prestasi li {
+  margin: 0 0 12px 0;
+  padding: 0 0 0 5px;
+  background-color: #1e9e6a;
+  border-radius: 0 14px 14px 0;
+}
+
+.melvern-prestasi-isi {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  gap: 16px;
+  padding: 14px 18px;
+  background-color: #f5f3ec;
+  border-radius: 0 10px 10px 0;
+}
+
+.melvern-prestasi strong {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.melvern-chips {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: start;
+  gap: 10px;
+}
+
+.melvern-chips li {
+  padding: 8px 16px;
+  border: 2px solid #161616;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.melvern-chips li:hover {
+  background-color: #1e9e6a;
+}
+
+.melvern-uxui {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 16px;
+}
+
+.melvern-uxui-kolom {
+  padding: 24px;
+  border: 2px solid #161616;
+  border-radius: 12px;
+}
+
+.melvern-uxui-kolom h3 {
+  margin: 12px 0 6px 0;
+  font-size: 19px;
+}
+
+.melvern-uxui-kolom p {
+  color: #5c5a53;
+}
+
+.melvern-ui {
+  background-color: #d5f2e3;
+}
+
+.melvern-uxui-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.melvern-catatan {
+  margin: 20px 0 0 0;
+  font-style: italic;
+}
+
+.melvern-footer {
+  padding: 24px 40px;
+  background-color: #1e9e6a;
+  border-radius: 0 0 12px 12px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 1100px) {
+  .melvern-cv {
+    width: auto;
+  }
+
+  .melvern-hero h1 {
+    font-size: 48px;
+  }
+
+  .melvern-tagline {
+    width: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .melvern-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .melvern-hero-foto {
+    margin: 0 auto;
+  }
+
+  .melvern-chips {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 760px) {
+  .melvern-lead {
+    width: auto;
+  }
+
+  .melvern-kontak {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .melvern-uxui {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .melvern-hero {
+    padding: 36px 20px;
+  }
+
+  .melvern-hero h1 {
+    font-size: 34px;
+  }
+
+  .melvern-kontak, .melvern-fakta, .melvern-bento-atas, .melvern-bento-bawah {
+    grid-template-columns: 1fr;
+  }
+
+  .melvern-isi {
+    padding: 28px 20px;
+  }
+
+  .melvern-pengalaman {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .melvern-chips {
+    grid-template-columns: auto auto;
+  }
+
+  .melvern-footer {
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .melvern-hero-foto {
+    width: 224px;
+  }
+
+  .melvern-foto img {
+    width: 220px;
+    height: 275px;
+  }
+
+  .melvern-hero h1 {
+    font-size: 28px;
+  }
+
+  .melvern-prestasi-isi {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
