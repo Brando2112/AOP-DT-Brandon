@@ -326,45 +326,6 @@ img {
   background-color: #ff5b2e;
 }
 
-.brandon-uxui {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  gap: 16px;
-}
-
-.brandon-uxui-kolom {
-  padding: 24px;
-  border: 2px solid #161616;
-  border-radius: 12px;
-}
-
-.brandon-uxui-kolom h3 {
-  margin: 12px 0 6px 0;
-  font-size: 19px;
-}
-
-.brandon-uxui-kolom p {
-  color: #5c5a53;
-}
-
-.brandon-ui {
-  background-color: #ffe1d6;
-}
-
-.brandon-uxui-plus {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Trebuchet MS", Arial, sans-serif;
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.brandon-catatan {
-  margin: 20px 0 0 0;
-  font-style: italic;
-}
-
 .brandon-footer {
   padding: 24px 40px;
   background-color: #ff5b2e;
@@ -411,9 +372,6 @@ img {
     grid-template-columns: 1fr 1fr;
   }
 
-  .brandon-uxui {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 640px) {

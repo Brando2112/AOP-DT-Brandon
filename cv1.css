@@ -215,12 +215,6 @@ img {
   font-size: 19px;
 }
 
-.melvern-tempat {
-  margin: 3px 0 7px 0;
-  color: #5c5a53;
-  font-size: 15px;
-}
-
 .melvern-putus {
   margin: 40px 0 20px 0;
   border: 1px dashed #cfcbc0;
@@ -326,45 +320,6 @@ img {
   background-color: #1e9e6a;
 }
 
-.melvern-uxui {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  gap: 16px;
-}
-
-.melvern-uxui-kolom {
-  padding: 24px;
-  border: 2px solid #161616;
-  border-radius: 12px;
-}
-
-.melvern-uxui-kolom h3 {
-  margin: 12px 0 6px 0;
-  font-size: 19px;
-}
-
-.melvern-uxui-kolom p {
-  color: #5c5a53;
-}
-
-.melvern-ui {
-  background-color: #d5f2e3;
-}
-
-.melvern-uxui-plus {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Trebuchet MS", Arial, sans-serif;
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.melvern-catatan {
-  margin: 20px 0 0 0;
-  font-style: italic;
-}
-
 .melvern-footer {
   padding: 24px 40px;
   background-color: #1e9e6a;
@@ -411,9 +366,6 @@ img {
     grid-template-columns: 1fr 1fr;
   }
 
-  .melvern-uxui {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 640px) {
